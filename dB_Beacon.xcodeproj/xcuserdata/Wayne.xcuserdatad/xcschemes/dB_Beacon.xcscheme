@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B0CB79C51C55F49800D0F4B1"
+               BuildableName = "dB_Beacon.app"
+               BlueprintName = "dB_Beacon"
+               ReferencedContainer = "container:dB_Beacon.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B0CB79D91C55F49800D0F4B1"
+               BuildableName = "dB_BeaconTests.xctest"
+               BlueprintName = "dB_BeaconTests"
+               ReferencedContainer = "container:dB_Beacon.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B0CB79E41C55F49900D0F4B1"
+               BuildableName = "dB_BeaconUITests.xctest"
+               BlueprintName = "dB_BeaconUITests"
+               ReferencedContainer = "container:dB_Beacon.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B0CB79C51C55F49800D0F4B1"
+            BuildableName = "dB_Beacon.app"
+            BlueprintName = "dB_Beacon"
+            ReferencedContainer = "container:dB_Beacon.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B0CB79C51C55F49800D0F4B1"
+            BuildableName = "dB_Beacon.app"
+            BlueprintName = "dB_Beacon"
+            ReferencedContainer = "container:dB_Beacon.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "B0CB79C51C55F49800D0F4B1"
+            BuildableName = "dB_Beacon.app"
+            BlueprintName = "dB_Beacon"
+            ReferencedContainer = "container:dB_Beacon.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
